@@ -1,11 +1,10 @@
 version: 0.2
 phases:
   install:
-    runtime-versions:
-	   java: openjdk8
     commands:
       - echo Entered the install phase
       - apt-get update -y
+      - apt-get install -y openjdk8
       - apt-get install -y maven
     finally:
       - echo This always runs even if the update or install command fails 
