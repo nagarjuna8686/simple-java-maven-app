@@ -3,7 +3,7 @@ env:
   variables:
     AWS_DEFAULT_REGION: us-east-2
     AWS_ACCOUNT_ID: 789530852735
-    IMAGE_TAG: latest
+    #IMAGE_TAG: latest
     IMAGE_REPO_NAME: firstregister
 phases:
   install:
