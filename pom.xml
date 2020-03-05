@@ -36,8 +36,8 @@
   </build>
   <distributionManagement>
   <snapshotRepository>
-    <id>snapshots</id>
-    <url>http://18.232.132.72:8181/nexus-latest/content/repositories/snapshots</url>
+    <id>MSF</id>
+    <url>http://18.232.132.72:8181/nexus-latest/content/repositories/MSF</url>
   </snapshotRepository>
   </distributionManagement>
 </project>
