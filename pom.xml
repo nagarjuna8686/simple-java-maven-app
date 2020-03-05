@@ -35,9 +35,9 @@
     </plugins>
   </build>
   <distributionManagement>
-      <repository>
-        <id>release</id>
-        <url>http://18.232.132.72:8181/nexus-latest/content/repositories/release</url>
-      </repository>
+      <snapshotRepository>
+        <id>Loan</id>
+        <url>http://18.232.132.72:8181/nexus-latest/content/repositories/Loan</url>
+      </snapshotRepository>
   </distributionManagement>
 </project>
